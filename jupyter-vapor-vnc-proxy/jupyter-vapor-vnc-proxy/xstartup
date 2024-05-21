@@ -1,6 +1,0 @@
-#!/bin/bash
-if [ -f /home/amyserver/.Xresources ]; then xrdb /home/amyserver/.Xresources; fi
-xsetroot -solid grey
-xterm -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
-twm &
-exec $HOME/VAPOR3-3.8.1-Linux/bin/vapor
