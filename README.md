@@ -49,6 +49,6 @@ sudo apt updatesudo apt full-upgrade
 ```
 10. Descargar la extensión de jupyter-vapor-vnc-proxy de este repositorio:
 ```bash
-python -m pip install https://github.com/AntonioOlay/jupyter-vapor-vnc-proxy/archive/0.0.1.tar.gz
+python -m pip install https://github.com/AntonioOlay/jupyter-vapor-vnc-proxy/archive/refs/tags/v0.0.1.tar.gz
 ```
 11. Movemos el archivo "config_novnc.sh" a la carpeta .jupyter
