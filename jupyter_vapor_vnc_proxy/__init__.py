@@ -27,6 +27,6 @@ def setup_vapor_desktop():
         'launcher_entry': {
             'title': 'VAPOR VNC DESKTOP',
 	    'path_info': path,
-            'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'VAPOR_LOGO.png')
+            'icon_path': os.path.join(os.path.dirname(os.path.abspath('VAPOR_LOGO.png')), 'VAPOR_LOGO.png')
         }
     }
