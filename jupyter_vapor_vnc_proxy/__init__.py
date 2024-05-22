@@ -11,6 +11,7 @@ def setup_vapor_desktop():
     home = os.getenv("HOME")
     config_path = '.jupyter/config_novnc.sh'
     full_path = os.path.join(home, config_path)
+    logopath = '.jupyter/VAPOR_LOGO.png'
     if os.path.exists(full_path) == False:
     	print("El archivo config_novnc.sh no se encuentra en la ruta:", home + "/.jupyter")
 
@@ -27,6 +28,6 @@ def setup_vapor_desktop():
         'launcher_entry': {
             'title': 'VAPOR VNC DESKTOP',
 	    'path_info': path,
-            'icon_path': os.path.join(os.path.dirname(os.path.abspath('VAPOR_LOGO.png')), 'VAPOR_LOGO.png')
+            'icon_path': os.path.join(home, logopath)
         }
     }
