@@ -1,4 +1,4 @@
-# jupyter-vapor-vnc-proxy
+# jupyter_vapor_vnc_proxy
 Extensión de JupyterLab para ejecutar VAPOR desde un servidor VNC
 
 Instrucciones:
