@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setuptools.setup(
     name="jupyter-vapor-vnc-proxy",
     packages=setuptools.find_packages(where='.'),
-    version='0.0.2',
+    version='0.0.3',
     description="Extension de Jupyter que ejecuta NCAR Vapor desde VNC",
     keywords=["Jupyter"],
     entry_points={
